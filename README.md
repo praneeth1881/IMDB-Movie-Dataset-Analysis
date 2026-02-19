@@ -1,0 +1,107 @@
+
+
+
+# IMDB Movie Data Analysis (ETL + EDA)
+
+## About the Project
+In this project, I worked on an IMDB movie dataset and built a small ETL pipeline using Python. The idea was to take raw movie data, clean it properly, apply some business rules, and then explore it to get useful insights.
+The final dataset is clean and structured, so it can be easily used for dashboards or database storage.
+
+
+---
+
+## What's Inside
+
+- imdb_movies.csv
+ → Raw dataset that I started with
+
+- IMDB Movie Business Rules and dashboard_problems statements.txt
+ → Contains the rules and questions I followed while analyzing
+
+- imdb_ddl.sql
+ → SQL script to create tables for storing the cleaned data
+
+- imdbmovies_etl.ipynb
+ → Main notebook where all the work happens (ETL + analysis)
+
+---
+
+## Tools & Libraries
+
+
+- Python
+
+- Pandas
+
+- Matplotlib
+
+- SQLAlchemy
+
+- Jupyter Notebook
+
+---
+
+## Setup Instructions
+
+Create a virtual environment:
+
+```bash
+python -m venv .venv
+.\.venv\Scripts\activate
+```
+
+Install required packages:
+
+```bash
+pip install pandas matplotlib sqlalchemy jupyter
+```
+
+---
+
+## How to Run the Project
+
+1. Open the notebook:
+   ```bash
+   imdbmovies_etl.ipynb
+   ```
+
+2. Run all cells sequentially to:
+   - Load raw data
+   - Clean and transform the dataset
+   - Apply business rules
+   - Generate visualizations
+
+---
+
+## ETL Process Highlights
+
+### Data Cleaning
+- Handling missing values  
+- Removing duplicates  
+- Standardizing column names  
+- Parsing date columns  
+- Normalizing numeric fields  
+
+### Business Rule Implementation
+- Applying validation logic  
+- Deriving calculated fields  
+- Aggregations for analytics  
+- Filtering and transformation as per defined rules  
+
+### Data Visualization
+- Movie release trends  
+- Genre analysis  
+- Rating distribution  
+- Revenue analysis  
+
+---
+
+## Project Objective
+
+This project demonstrates:
+
+- Practical ETL workflow implementation  
+- Business-rule-driven data transformation  
+- Data validation and cleaning techniques  
+- Analytical insights generation  
+- End-to-end pipeline from raw dataset to database-ready format  
