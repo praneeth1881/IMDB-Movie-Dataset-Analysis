@@ -95,6 +95,23 @@ pip install pandas matplotlib sqlalchemy jupyter
 - Revenue analysis  
 
 ---
+## Dashboards and Visualizations
+
+### Average Rating by Genre
+![Average Rating by Genre](Reports/Average%20Rating%20by%20Genre.png)
+
+### Budget vs Gross Correlation
+![Budget vs Gross Correlation](Reports/Budget%20vs%20Gross%20Correlation.png)
+
+### Most Profitable Genre
+![Most Profitable Genre](Reports/Most%20Profitable%20Genre.png)
+
+### Top 10 Highest Grossing Movies by Year
+![Top 10 Highest Grossing Movies by Year](Reports/Top%2010%20Highest%20Grossing%20Movies%20by%20Year.png)
+
+### Top 5 Directors by Average Ratings
+![Top 5 Directors by Average Ratings](Reports/Top%205%20Directors%20by%20Average%20Ratings.png)
+
 
 ## Project Objective
 
