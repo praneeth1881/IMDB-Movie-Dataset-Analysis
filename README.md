@@ -73,22 +73,22 @@ pip install pandas matplotlib sqlalchemy jupyter
 
 ---
 
-## ETL Process Highlights
+## What I Did (ETL Process)
 
-### Data Cleaning
+## Cleaning the Data
 - Handling missing values  
 - Removing duplicates  
 - Standardizing column names  
 - Parsing date columns  
 - Normalizing numeric fields  
 
-### Business Rule Implementation
+### Applying Bussiness Rules
 - Applying validation logic  
 - Deriving calculated fields  
 - Aggregations for analytics  
 - Filtering and transformation as per defined rules  
 
-### Data Visualization
+### Exploring The Data
 - Movie release trends  
 - Genre analysis  
 - Rating distribution  
@@ -104,4 +104,4 @@ This project demonstrates:
 - Business-rule-driven data transformation  
 - Data validation and cleaning techniques  
 - Analytical insights generation  
-- End-to-end pipeline from raw dataset to database-ready format  
+- End-to-end pipeline from raw dataset to database-ready format
